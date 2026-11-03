@@ -1,0 +1,12 @@
+services:
+  kanhaclone:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kanhaclone
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./downloads:/app/downloads
+      - ./cache:/app/cache

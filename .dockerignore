@@ -1,0 +1,17 @@
+.git
+.gitignore
+.github
+__pycache__
+*.pyc
+*.pyo
+*.session
+*.session-journal
+.env
+.venv
+venv
+cache
+downloads
+log.txt
+nodelog.txt
+pypilog.txt
+README.md

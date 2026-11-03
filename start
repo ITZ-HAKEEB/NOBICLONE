@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Start KanhaClone.
+# Uses ./venv or ./.venv when it exists, so bash start works even if you
+# forgot to run source venv/bin/activate (a very common cause of
+# "ModuleNotFoundError"). uv sync creates .venv, the manual README path
+# creates venv - both are supported.
+cd "$(dirname "$0")" || exit 1
+
+for py in venv/bin/python .venv/bin/python; do
+    if [ -x "$py" ]; then
+        exec "$py" -m KanhaClone
+    fi
+done
+
+exec python3 -m KanhaClone

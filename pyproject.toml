@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=70.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "KanhaClone"
+version = "0.1.0"
+description = "KanhaClone - Telegram music bot"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { text = "GNU v3.0" }
+
+dependencies = [
+  "aiofiles==25.1.0",
+  "aiohttp==3.14.5",
+  "beautifulsoup4==4.15.0",
+  "gitpython==3.2.1",
+  "heroku3==5.2.1",
+  "motor==3.7.1",
+  "pillow==13.0.0",
+  "psutil==7.2.2",
+  "py-tgcalls==3.0.0",
+  "ntgcalls==3.0.5",
+  "py-yt-search==0.8.1",
+  "python-dotenv==1.2.4",
+  "pyyaml==6.0.3",
+  "requests==2.34.2",
+  "SafoneAPI==1.0.70",
+  "six==1.17.0",
+  "spotipy==2.26.0",
+  "tgcrypto==1.2.5",
+  "unidecode==1.4.0",
+  "yt-dlp==2026.10.21",
+  "kurigram @ git+https://github.com/KurimuzonAkuma/kurigram.git",
+]
+
+[tool.setuptools]
+py-modules = ["config"]
+
+[tool.setuptools.packages.find]
+include = ["KanhaClone*", "strings*"]
+
+[tool.uv]
+# SafoneAPI declares a hard dependency on PyPI `pyrogram`, which clashes with
+# kurigram (both ship the `pyrogram` package). kurigram already provides it,
+# so the PyPI one must never be installed.
+override-dependencies = ["pyrogram; sys_platform == 'never'"]

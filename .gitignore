@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+log.txt
+nodelog.txt
+pypilog.txt
+
+.env
+.cache/
+cache/
+downloads/
+venv/
+.venv/
+
+*.session
+*.session-journal
