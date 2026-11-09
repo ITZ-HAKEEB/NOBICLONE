@@ -55,8 +55,8 @@ BOT_LINK = _env("BOT_LINK", "https://t.me/KirtiCloneBot")
 # MONGO_URI is accepted as an alias so older .env files keep working.
 MONGO_DB_URI = _env("MONGO_DB_URI") or _env("MONGO_URI")
 
-
-
+ARC_API_URL = getenv("ARC_API_URL", "https://api.arcmusic.fun")
+ARC_API_KEY = getenv("ARC_API_KEY", "ARCa6533965fe565318621ecd")
 
 
 DURATION_LIMIT_MIN = _int_env("DURATION_LIMIT", 17000)
