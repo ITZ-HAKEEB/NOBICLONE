@@ -50,7 +50,7 @@ OWNER_USERNAME = _env("OWNER_USERNAME", "")
 BOT_USERNAME = _env("BOT_USERNAME", "")
 BOT_NAME = _env("BOT_NAME", "")
 ASSUSERNAME = _env("ASSUSERNAME", "")
-BOT_LINK = _env("BOT_LINK", "https://t.me/MeowClonerbot")
+BOT_LINK = _env("BOT_LINK", "https://t.me/KirtiCloneBot")
 
 # MONGO_URI is accepted as an alias so older .env files keep working.
 MONGO_DB_URI = _env("MONGO_DB_URI") or _env("MONGO_URI")
@@ -70,8 +70,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Meowcloner")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MeowClone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/llNOBI_UPDATESll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/llNOBI_SUPPORTll")
 
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -101,22 +101,14 @@ confirmer = {}
 
 # --- Updated Image URLs ---
 _IMG_LIST = [
-    "https://files.catbox.moe/v00l7e.jpg",
-    "https://files.catbox.moe/uow54p.jpg",
-    "https://files.catbox.moe/z0t6l3.jpg",
-    "https://files.catbox.moe/jdw0il.jpg",
-    "https://files.catbox.moe/izfi0y.jpg",
-    "https://files.catbox.moe/7wx3ha.jpg",
-    "https://files.catbox.moe/2u0srm.jpg",
-    "https://files.catbox.moe/tqwy0q.jpg",
-    "https://files.catbox.moe/vbgrx1.jpg"
+    "https://ibb.co/QFDnHvFJ",
 ]
 START_IMG_URL = getenv("START_IMG_URL", _IMG_LIST)
-HELP_IMG_URL = getenv("HELP_IMG_URL", "https://files.catbox.moe/v00l7e.jpg")
+HELP_IMG_URL = getenv("HELP_IMG_URL", "https://ibb.co/QFDnHvFJ")
 PING_IMG_URL = getenv("PING_IMG_URL", _IMG_LIST)
 
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://files.catbox.moe/z0t6l3.jpg")
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/7wx3ha.jpg")
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://ibb.co/QFDnHvFJ")
 TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://files.catbox.moe/7wx3ha.jpg")
 TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "https://files.catbox.moe/7wx3ha.jpg")
 STREAM_IMG_URL = getenv("STREAM_IMG_URL", "https://files.catbox.moe/vbgrx1.jpg")
