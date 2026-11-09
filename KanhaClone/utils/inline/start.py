@@ -59,7 +59,7 @@ def private_panel(_):
         [
             btn(
                 text="🖨 ᴄʟᴏɴᴇ",
-                callback_data="nobi"
+                callback_data="pikachu"
             ),
             btn(
                 text="🛡️ ᴘʀɪᴠᴀᴄʏ",
