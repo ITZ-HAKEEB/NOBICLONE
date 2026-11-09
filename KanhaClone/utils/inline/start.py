@@ -51,7 +51,7 @@ def private_panel(_):
         [
             btn(
                 text=_["S_B_10"],
-                callback_data="NOBI_XD"),
+                callback_data="Kanha_Anu"),
             btn(
                 text="💌 ʏᴛ-ᴀᴘɪ",
                 callback_data="api_status"),
