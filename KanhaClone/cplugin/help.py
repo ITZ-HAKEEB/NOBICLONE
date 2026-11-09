@@ -28,7 +28,7 @@ def get_random_help_img():
         if isinstance(HELP_IMG_URL, list):
             return random.choice(HELP_IMG_URL)
         return HELP_IMG_URL
-    return "https://telegra.ph/file/2e3d368e77c449c287430.jpg" # Fallback
+    return "https://anya-file-host.vercel.app/qc4i7ivins" # Fallback
 
 @Client.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @Client.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
