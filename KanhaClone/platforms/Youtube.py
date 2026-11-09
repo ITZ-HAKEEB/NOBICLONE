@@ -17,8 +17,8 @@ from pyrogram.types import Message
 from py_yt import VideosSearch, Playlist
 import aiohttp
 
-API_URL = os.environ.get("MEOW_API_URL", "https://api.arcmusic.fun")
-API_KEY = os.environ.get("MEOW_API_KEY", "ARCa6533965fe565318621ecd") # 🔑 Get Key: @MeowApiRobot On Telegram 
+API_URL = os.environ.get("MEOW_API_URL", "https://music.yukiapi.site")
+API_KEY = os.environ.get("MEOW_API_KEY", "yuki_95a6c913e9b5f9094b013ce8e963a320") # 🔑 Get Key: @MeowApiRobot On Telegram 
 
 DOWNLOAD_DIR = "downloads"
 
