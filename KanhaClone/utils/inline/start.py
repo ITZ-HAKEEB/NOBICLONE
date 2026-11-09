@@ -51,7 +51,7 @@ def private_panel(_):
         [
             btn(
                 text=_["S_B_10"],
-                callback_data="Kanha_Anu"),
+                callback_data="NOBI_XD"),
             btn(
                 text="💌 ʏᴛ-ᴀᴘɪ",
                 callback_data="api_status"),
@@ -59,11 +59,11 @@ def private_panel(_):
         [
             btn(
                 text="🖨 ᴄʟᴏɴᴇ",
-                callback_data="pikachu"
+                callback_data="nobi"
             ),
             btn(
                 text="🛡️ ᴘʀɪᴠᴀᴄʏ",
-                url="https://graph.org/KanhaMusic-04-18",
+                url="https://ibb.co/QFDnHvFJ",
             ),
         ],
         [
