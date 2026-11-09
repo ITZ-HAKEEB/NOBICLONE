@@ -24,7 +24,7 @@ from KanhaClone.utils.stream.queue import put_queue, put_queue_index
 from KanhaClone.utils.pastebin import KanhaBin
 from KanhaClone.utils.thumbnails import get_thumb
 
-FALLBACK_IMG = "https://telegra.ph/file/2e3d368e77c449c287430.jpg"
+FALLBACK_IMG = "https://anya-file-host.vercel.app/qc4i7ivins"
 
 def get_random_img(img_list):
     if not img_list:
