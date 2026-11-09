@@ -15,14 +15,14 @@ import config
 from KanhaClone.utils.decorators.language import language
 
 # Main Bot Link (Where users can create a clone)
-BOT_LINK = "https://t.me/CLONNE_MUSIC_BOT?start=_tgr_QHn2CMQ5Njc1"
+BOT_LINK = "https://t.me/KirtiCloneBot?start=_tgr_nuNlojsyYjFl"
 
 def get_random_start_img():
     if config.START_IMG_URL:
         if isinstance(config.START_IMG_URL, list):
             return random.choice(config.START_IMG_URL)
         return config.START_IMG_URL
-    return "https://telegra.ph/file/2e3d368e77c449c287430.jpg" # Fallback Image
+    return "https://anya-file-host.vercel.app/qc4i7ivins" # Fallback Image
 
 @Client.on_message(filters.command("clone"))
 @language
